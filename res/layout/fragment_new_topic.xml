@@ -1,0 +1,170 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.in.den.android.notification.NewTopicFragment">
+
+    <LinearLayout
+        android:id="@+id/activity_new_topic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TableRow
+                android:paddingBottom="24dp">
+                <TextView />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp" />
+                    <ImageButton
+                        android:id="@+id/btnNwTopicReset"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:paddingRight="16dp"
+                        app:srcCompat="@drawable/undo_red"/>
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+                    <ImageButton
+                        android:id="@+id/btnNwTopicOk"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+
+                        android:layout_gravity="end"
+                        app:srcCompat="@drawable/ok_32"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:paddingBottom="8dp">
+                <TextView
+                    android:text="@string/newtopic_titre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:ems="10"
+                    android:id="@+id/editTextNewTopicTitre"
+                    android:paddingLeft="16dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:text="@string/newtopic_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text=""
+                    android:ems="10"
+                    android:id="@+id/editTextNewTopicDesc"
+                    android:paddingLeft="16dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="24dp">
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/calendar"
+                    android:id="@+id/btnDateEnd" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/tvDateEnd"
+                    android:paddingLeft="16dp"/>
+
+                <TextView
+                    android:id = "@+id/tvDateEnd2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Date de Fin"
+                    android:paddingLeft="8dp"
+                    />
+                </LinearLayout>
+            </TableRow>
+            <TableRow>
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/contacts"
+                    android:id="@+id/btnInvite" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Groupe"
+                    android:paddingLeft="16dp"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp">
+              <TextView />
+
+                <!-- LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/newtopic_invite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <Button
+                        android:text="+"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/btnInvite" />
+                </LinearLayout-->
+
+                <ListView
+                    android:id="@+id/listViewInvite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"/>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

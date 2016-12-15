@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NEKO CHAT</string>
+    <string name="maintitle">CHAT ROOM</string>
+    <string name="title_action_newChat">topic</string>
+    <string name="title_action_listuser">users</string>
+    <string name="newtopic_titre">TITRE</string>
+    <string name="newtopic_description">DESC.</string>
+    <string name="newtopic_enddate">END</string>
+    <string name="newtopic_invite">INVITE</string>
+    <string name="newtopic_reset">reset</string>
+    <string name="newtopic_cancel">cancel</string>
+    <string name="newtopic_ok">OK</string>
+    <string name="select">select</string>
+    <string name="btnUserSelect">OK</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_user">users</string>
+    <string name="tab_chat">new topic</string>
+    <string name="tab_topics">topics</string>
+
+</resources>
