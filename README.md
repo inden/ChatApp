@@ -1,5 +1,5 @@
 # (Etude) ChatApp - Firebase
-## - Une application Android pour chatter entre membres, réalisé pour expérimenter divers technologies android citées en bas
+## - Une application Android pour chatter entre membres, développée pour expérimenter diverse technologies android citées en bas
 ## 
 ## Comment utiliser?
 ##
