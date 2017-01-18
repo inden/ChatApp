@@ -1,5 +1,5 @@
-# (Etude) Neko Chat 
-## - App Android pour le chat avec le backend cloud Firebase
+# (Etude) ChatApp 
+## - Une application Android pour chatter entre membres. 
 ##
 ## L'utilisation 
 ##
