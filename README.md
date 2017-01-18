@@ -1,7 +1,8 @@
 # (Etude) ChatApp 
 ## - Une application Android pour chatter entre membres. 
+## - Application pour le but d'apprendre divers technologies Android citées en bas de la page
 ##
-## L'utilisation 
+## Comment utiliser?
 ##
 ## Création d'un compte utilisateur pour la première utilisation
 
