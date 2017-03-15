@@ -61,10 +61,11 @@ Your messages are on the left side and other members' messages on the right side
 ### SDK API 19 or later required ###
 ##
 ## Technology 
-- Splash activity
-- Material Design pour tab
-- Firebase (realtime database, storage)
-- Broadcast Receiver pour la communication entre Tab (activity) et Pages (Fragment)
-- Library Picasso 
+- Firebase Realtime database, Firebase Storage
+- Tabbed Activity, View pager
+- RecyclerView, ListView
+- Broadcast Receiver
+- 9 patch
+- Library Picasso, etc
 
 
