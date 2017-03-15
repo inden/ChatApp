@@ -9,7 +9,7 @@ import java.io.Serializable;
  */
 public class User implements Serializable {
 
-    final String suri1 = "https://firebasestorage.googleapis.com/v0/b/notificationtest-e8899.appspot.com/o/profilicon%2F";
+    final String suri1 = "put your adresse here";
     final String suri2 = ".jpg?alt=media";
 
     String iduser;  // auto generated user key
