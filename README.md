@@ -45,18 +45,19 @@ Click "Ok" button to save the topic (or "Refresh" button to empty the form). You
 <img src="https://cloud.githubusercontent.com/assets/21304543/21225945/a2eb2988-c2d3-11e6-9af6-4a0760282bae.png" width="300"/>
 
 
-### On the tab *TOPICS*, there are list of 'in progress' topics that you are invited or you created. ###
+### On the tab *TOPICS*, there is the list of 'in progress' topics that you are invited or you created. ###
 you can find the topic which you have just created (at the top in the picture) 
-Click your topic item and start the discussion.
+Click a topic item and start to chat.
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/21225947/a2f7a8f2-c2d3-11e6-9374-f829bd499898.png" width="300"/>
 
 
-### Now the chat is going on. Your messages on the left side and members' message on the right side with their name and avatar  ###
+### Now the chat is going on. ###
+Your messages are on the left side and other members' messages on the right side with their name and avatar  
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/21225949/a302e0aa-c2d3-11e6-9d65-181a36cdc654.png" width="300"/>
 
-##
+
 ### SDK API 19 or later required ###
 ##
 ## Technology 
