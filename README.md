@@ -7,12 +7,12 @@
 ## How to use
 ##
 ### Create your accout when you use the app for the first time.
-### Your account is saved on Firebase.
+### Your account will be saved on Firebase.
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/21225946/a2f193ea-c2d3-11e6-95d3-69c359a918b6.png" width="300"/>
 
 
-### Your new account is now added. You find it in the members list on the tab "USERS"
+### Your ccount is added and you will find it in the members list on the tab "USERS"
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/21225948/a2fcda52-c2d3-11e6-9f6c-585b5c237abc.png" width="300"/>
 
