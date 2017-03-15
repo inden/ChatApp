@@ -1,18 +1,23 @@
 # (Demo) ChatApp - Firebase Backend
-## an Android Chat app 
+## an Android Chat app ##
 ### This is a demo app developed to test Firebase. 
 ### I tested its Realtime Database and its File storage. 
 ### I found Firebase really first and easy to use except database query.
-##
-## How to use
-##
-### Create your accout when you use the app for the first time.
-### Your account will be saved on Firebase.
+
+## How to use ##
+### Create your accout for the first time. Your account will be saved on Firebase. ###
+
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/21225946/a2f193ea-c2d3-11e6-95d3-69c359a918b6.png" width="300"/>
 
 
-### Your ccount is added and you will find it in the members list on the tab "USERS"
+There are three tabs on screen: 
+ * *TOPICS* for the list of topics in progress,
+ * *NEW TOPIC* to create a new topic,
+ * *USERS* for the members list. 
+
+
+### Your ccount is added and you will find it on the members list on the tab "USERS"
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/21225948/a2fcda52-c2d3-11e6-9f6c-585b5c237abc.png" width="300"/>
 
